@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@vuelog/*": ["./*/dist"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
