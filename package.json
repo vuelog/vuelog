@@ -13,8 +13,8 @@
     "front:build": "cd front && yarn build",
     "sample-template:build": "cd sample-template && yarn build",
     "postinstall": "lerna bootstrap",
-    "prepack": "npm run test && npm run build",
-    "publish-all": "npm run prepack && lerna publish from-package"
+    "prepack": "yarn build",
+    "publish-all": "yarn prepack && lerna publish from-package"
   },
   "author": {
     "name": "Joseph Lee",

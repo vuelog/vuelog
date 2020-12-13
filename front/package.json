@@ -1,6 +1,6 @@
 {
   "name": "@vuelog/front",
-  "version": "0.0.1-develop",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -16,6 +16,15 @@
     "dist/*.d.ts",
     "dist/*.d.ts"
   ],
+  "author": {
+    "name": "Joseph Lee",
+    "email": "joseph@jc-lab.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuelog/vuelog.git"
+  },
+  "license": "Apache-2.0",
   "dependencies": {
     "base64-js": "^1.5.1"
   },
@@ -26,8 +35,8 @@
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/eslint-config-typescript": "^5.0.2",
     "babel-loader": "^8.2.2",
-    "concurrently": "^5.3.0",
     "chalk": "2.2.0",
+    "concurrently": "^5.3.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "happypack": "^5.0.1",

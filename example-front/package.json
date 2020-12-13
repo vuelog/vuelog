@@ -1,11 +1,11 @@
 {
   "name": "@vuelog/example-front",
-  "version": "0.0.1-develop",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "serve:live": "cross-env SERVE_ENV=live vue-cli-service serve",
     "serve:webpack": "cross-env SERVE_ENV=webpack vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "example-front:build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
