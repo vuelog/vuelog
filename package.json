@@ -1,7 +1,7 @@
 {
   "name": "@vuelog/parent",
   "private": true,
-  "version": "0.0.1-develop",
+  "version": "0.0.2-develop",
   "description": "",
   "main": "index.js",
   "scripts": {

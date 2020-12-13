@@ -1,6 +1,6 @@
 {
   "name": "@vuelog/example-front",
-  "version": "0.0.1-develop",
+  "version": "0.0.2-develop",
   "private": true,
   "scripts": {
     "serve:live": "cross-env SERVE_ENV=live vue-cli-service serve",
