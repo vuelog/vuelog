@@ -10,6 +10,10 @@
     "test": "mocha -r ts-node/register -r tsconfig-paths/register --recursive test/**/*.ts",
     "build-dep": "lerna run build --stream --scope=@vuelog/sample-template --include-dependencies"
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "author": {
     "name": "Joseph Lee",
     "email": "joseph@jc-lab.net"

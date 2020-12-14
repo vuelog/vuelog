@@ -12,9 +12,7 @@
   },
   "files": [
     "src",
-    "dist/*.js",
-    "dist/*.d.ts",
-    "dist/*.d.ts"
+    "dist"
   ],
   "author": {
     "name": "Joseph Lee",
