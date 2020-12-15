@@ -1,6 +1,6 @@
 {
   "name": "@vuelog/sample-template",
-  "version": "0.0.3-develop",
+  "version": "0.0.5-develop",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
