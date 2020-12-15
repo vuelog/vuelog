@@ -65,6 +65,11 @@ export default class VuelogAppView extends Vue {
   }
 
   mounted() {
+    this.routeUpdated();
+  }
+
+  @Watch('routeType')
+  public routeUpdated() {
     const pagable = DefaultPageable.create(this.pageNumber, 5);
 
     if (this.isPostList) {
