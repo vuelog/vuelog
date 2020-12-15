@@ -12,7 +12,7 @@
                :routeType="routeType" :site="site" :post="post" />
     <component v-if="layouts && routeType === 'main' && layouts.mainPageComponent" :is="layouts.mainPageComponent"
                :routeType="routeType" :site="site" :list="list" />
-    <component v-if="layouts && isPostList && layouts.postListComponent" :is="layouts.postListComponent"
+    <component v-else-if="layouts && isPostList && layouts.postListComponent" :is="layouts.postListComponent"
                :routeType="routeType" :site="site" :queries="queries" :list="list" :tagName="tagName" :categoryName="categoryName" :pageNumber="pageNumber" />
     <component v-else-if="layouts && isPostView && layouts.postComponent && post" :is="layouts.postComponent"
                :routeType="routeType" :site="site" :post="post" :postId="postId" />
