@@ -13,7 +13,8 @@ module.exports = {
         '@vue/typescript/recommended'
       ],
       rules: {
-        '@typescript-eslint/ban-ts-ignore': 'off'
+        '@typescript-eslint/ban-ts-ignore': 'off',
+        '@typescript-eslint/no-inferrable-types': 'off'
       }
       // parser: '@typescript-eslint/parser'
     }
